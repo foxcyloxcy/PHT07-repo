@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Tiny5&display=swap');
+
+
+h3 {
+    color: blue;
+}
+
+h1 {
+    color: yellow;
+}
+
+.Christian{
+    color: aqua;
+}
+
+.font-example {
+    color: purple;
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+}
+
+.formatting-example {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+.formatting-example .bold {
+    font-weight: bold;
+}
+
+.formatting-example .italic {
+    font-style: italic;
+}
+
+.formatting-example .underline {
+    text-decoration: underline;
+}
+
+.alignment-example {
+    text-align: center;
+}
+
+.decoration-example {
+    text-decoration: line-through;
+}
+
+.line-spacing-example {
+    line-height: 1.5;
+    letter-spacing:  3px;
+}
+
+.shadow-example {
+    text-shadow: 5px 10px 10px purple;
+}
+
+.web-safe-font {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.google-font {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}

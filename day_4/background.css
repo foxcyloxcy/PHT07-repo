@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+.bg {
+    /* font-family: "Kanit", sans-serif;  */
+    font-family: "Gloria Hallelujah", cursive;
+
+    background-color: #f2b6aa;
+
+    /* gradient background */
+    background: rgb(245,159,159);
+    background: linear-gradient(137deg, rgba(245,159,159,1) 0%, rgba(253,232,228,1) 45%, rgba(250,234,186,1) 100%);
+
+    background-image: url('sample-img.jpg');
+    background-image: url('https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3B4MTU5NDg4NC1pbWFnZS1rd3Z4cnkzaC5qcGc.jpg');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    /* background: bg-color || bg-image || bg-position || bg-repeat || bg-size || bg-attachment  */
+
+    /* background: aqua url('sample.jpg') center no-repeat fixed cover; */
+   
+}
